@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+p {
+    text-align: justify;
+}
+
 /* HEAD */
 
 header {
@@ -265,6 +269,8 @@ section {
 .project-card img {
     width: 20vw;
     border-radius: 1rem;
+    border: 1px solid black;
+    transition: 0.3s ease-in-out;
 }
 
 .project-card:hover .btn {
@@ -278,10 +284,19 @@ section {
     color: black;
 }
 
+.project-card:hover img:hover {
+    transform: scale(1.1);
+}
+
 .project-card h3 {
     font-size: 3rem;
     font-weight: 600;
+    background: linear-gradient(to right, rgb(17, 236, 225), rgb(0, 255, 0));
+    background-clip: text;
+    color: transparent;
 }
+
+
 
 /* SCROLLBAR */
 
