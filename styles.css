@@ -298,7 +298,9 @@ section {
     color: transparent;
 }
 
-
+.project-card a {
+    color: black
+}
 
 /* SCROLLBAR */
 
