@@ -268,7 +268,8 @@ section {
     transition: 0.3s ease-in-out;
 }
 
-.project-card:hover {
+.project-card:hover,
+.contact-card:hover {
     transform: translateY(-10px) scale(1.02);
     background-color: black;
     color: white;
@@ -310,39 +311,61 @@ section {
     color: transparent;
 }
 
-/* Input */
+/* Contact */
 
-.input-box {
+.contact-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 50px;
+}
+
+.contact-card {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-card i {
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.contact-card-upper,
+.contact-card-lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-moreinfo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
-    text-align: center;
-    gap: 2rem;
-    margin-top: 5rem;
+    font-size: 1.5rem;
 }
 
-.input-box input {
-    padding: 2rem 8rem;
-    border-radius: 3rem;
-    border: 2px solid black;
-    font-size: 3rem;
+.contact-moreinfo p {
+    margin-bottom: 50px;
 }
 
-.input-box input::placeholder {
-    font-size: 3rem;
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-.input {
-    position: relative;
-}
-
-.input i {
-    position: absolute;
-    font-size: 4rem;
-    top: 50%;
-    left: 10px;
-    transform: translate(50%, -50%);
+.location img {
+    width: 30px;
 }
 
 /* FOOTER */
@@ -428,6 +451,11 @@ footer ul li a {
 
     .input-box i {
         font-size: 2.5rem;
+    }
+
+    .project-card img {
+        width: 90%;
+
     }
 }
 
