@@ -363,7 +363,9 @@ footer ul li a {
     margin-top: 2rem;
 }
 
-
+.project-card a {
+    color: black
+}
 
 /* SCROLLBAR */
 
