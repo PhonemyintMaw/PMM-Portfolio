@@ -273,12 +273,14 @@ section {
     transition: 0.3s ease-in-out;
 }
 
-.project-card:hover .btn {
+.project-card:hover .btn,
+.project-card:hover .btn-group a {
     border: 2px solid white;
     color: white;
 }
 
-.project-card:hover .btn:hover {
+.project-card:hover .btn:hover,
+.project-card:hover .btn-group a:hover {
     border: 2px solid white;
     background-color: white;
     color: black;
@@ -296,7 +298,9 @@ section {
     color: transparent;
 }
 
-
+.project-card .btn-group a {
+    color: black;
+}
 
 /* SCROLLBAR */
 
