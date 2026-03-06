@@ -1,0 +1,14 @@
+{
+    "en": {
+        "nav_home": "Home",
+        "hero_title": "Innovative Developer",
+        "contact_me": "Contact Me",
+        "send_btn": "Send Message"
+    },
+    "mm": {
+        "nav_home": "ပင်မစာမျက်နှာ",
+        "hero_title": "တီထွင်ဆန်းသစ်သော Developer",
+        "contact_me": "ဆက်သွယ်ရန်",
+        "send_btn": "ပေးပို့ရန်"
+    }
+}

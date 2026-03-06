@@ -45,6 +45,7 @@ header {
 
 .nav-link {
     display: flex;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -70,10 +71,10 @@ ul li a:hover::before {
     width: 100%;
 }
 
-.visit-btn {
+.lang-btn {
     background: linear-gradient(to right, rgb(17, 236, 225), rgb(0, 255, 0));
     color: rgb(0, 0, 0);
-    padding: 0.8rem 1.5rem;
+    padding: 10px 20px;
     border-radius: 3rem;
     font-weight: bold;
     border: none;
@@ -83,9 +84,20 @@ ul li a:hover::before {
     transition: 0.3s ease-in-out;
 }
 
-.visit-btn:hover {
+.lang-btn:hover {
     background: linear-gradient(to right, rgb(0, 255, 0), rgb(17, 236, 225));
     transform: scale(1.03);
+}
+
+.lang-btn i {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.lang-btn i span {
+    margin-left: 5px;
+    font-size: 17px;
 }
 
 #menu-icon {
@@ -521,6 +533,8 @@ footer ul li a {
         color: white;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         background: rgba(0, 0, 0, 0.9);
         border-radius: 3rem;
@@ -544,7 +558,7 @@ footer ul li a {
         font-size: 1.5rem;
     }
 
-    .about-container img {
+    .profile {
         width: 80vw;
     }
 
