@@ -71,7 +71,8 @@ ul li a:hover::before {
     width: 100%;
 }
 
-.lang-btn {
+.lang-btn,
+.visit-btn {
     background: linear-gradient(to right, rgb(17, 236, 225), rgb(0, 255, 0));
     color: rgb(0, 0, 0);
     padding: 10px 20px;
@@ -84,7 +85,8 @@ ul li a:hover::before {
     transition: 0.3s ease-in-out;
 }
 
-.lang-btn:hover {
+.lang-btn:hover,
+.visit-btn:hover {
     background: linear-gradient(to right, rgb(0, 255, 0), rgb(17, 236, 225));
     transform: scale(1.03);
 }
