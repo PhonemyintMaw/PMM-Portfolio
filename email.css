@@ -25,48 +25,83 @@ body {
     color: white;
 }
 
+.head {
+    display: flex;
+    justify-content: center;
+}
+
 .email-page-main {
     width: 50vw;
 }
 
 img {
     width: 15vw;
+    display: block;
 }
 
 .email-section {
     border: solid 2px black;
     border-radius: 20px;
-    padding: 30px;
-}
-
-.email-section h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.email-section-body {
+    padding: 50px;
+    height: auto;
     display: grid;
-    grid-template-columns: 5fr 1fr 5fr;
-    height: 300px;
+    grid-template-columns: 3fr 1fr 3fr;
     align-items: center;
     justify-items: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
 }
 
 .msg-part {
     margin-bottom: 20px;
 }
 
-.msg-part input {
-    padding: 5px;
-    width: 300px;
+.msg-sections {
+    display: block;
+    margin-bottom: 20px;
 }
 
-.message-text {
-    height: 50px;
+.msg-sections input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.msg-sections-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.msg-sections-message textarea {
+    margin-top: 10px;
 }
 
 .btn-part {
     display: flex;
     justify-content: center;
+}
+
+@media (max-Width: 1420px) {
+
+    .email-section .left-side img,
+    .boundary {
+        display: none;
+    }
+
+    .email-section {
+        display: flex;
+    }
+
+    .email-section-body-msg {
+        width: 100%;
+    }
+}
+
+@media (max-Width: 1050px) {
+    .email-page-main {
+        width: 70vw;
+    }
 }

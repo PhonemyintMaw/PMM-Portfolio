@@ -19,31 +19,46 @@
                 Back
             </button>
         </a>
+        <div class="head">
+            <h1>Email Me</h1>
+        </div>
         <div class="email-section">
-            <h1 class="email-section-head">Email Me</h1>
-            <div class="email-section-body">
-                <div>
-                    <img src="images/paperplane.png" alt="paperplane">
-                </div>
-                <div class="boundary">
-                    |
-                </div>
-                <form class="email-section-body-msg" action="send_email.php" method="POST">
-                    <div class="msg-part">
-                        <label for="email">Your Email:</label><br><br>
-                        <input name="email" id="email" type="email" placeholder="example@email.com">
-                        <br>
-                        <br>
-                        <br>
-                        <label for="content">Message:</label><br><br>
-                        <textarea name="message" id="message" class="message-text" type="text"
-                            placeholder="Write Message"></textarea>
-                    </div>
-                    <div class="btn-part">
-                        <button type="submit">Send</button>
-                    </div>
-                </form>
+
+            <div class="left-side">
+
+
+                <img src="images/paperplane.png" alt="paperplane">
+
+
             </div>
+            <div class="boundary">
+                |
+            </div>
+            <form class="email-section-body-msg" action="send_email.php" method="POST">
+                <div class="msg-part">
+                    <div class="msg-sections">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="msg-sections">
+                        <label for="email">Email:</label>
+                        <input name="email" id="email" type="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="msg-sections">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="msg-sections-message">
+                        <label for="content">Message:</label>
+                        <textarea name="message" id="message" type="text" rows="10" placeholder="Write Message"
+                            required></textarea>
+                    </div>
+                </div>
+                <div class="btn-part">
+                    <button type="submit">Send</button>
+                </div>
+
+            </form>
 
         </div>
 

@@ -1,31 +1,36 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    
-    $to = "contact@phonemyintmaw.dev"; 
-    
-    
-    $name = strip_tags(trim($_POST["name"]));
-    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-    $message = trim($_POST["message"]);
 
-    
-    $subject = "New Contact from $name";
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $subject = $_POST["subject"];
+    $message = $_POST["message"];
 
-   // 2. The "From" address MUST be your domain to avoid spam filters
-    $headers = "From: webmaster@yourdomain.com\r\n";
-    $headers .= "Reply-To: $email\r\n";
+    $to = "contact@phonemyintmaw.dev";
+
+    $headers = "From: contact@phonemyintmaw.dev\r\n";
+    $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+    $parameters = "-f contact@phonemyintmaw.dev";
 
     $body = "You have received a new message.\n\n".
             "Name: $name\n".
             "Email: $email\n".
+            "Subject: $subject\n\n".
             "Message:\n$message";
 
-    if (mail($to, $subject, $body, $headers)) {
+    if (mail($to, $subject, $body, $headers, $parameters)) {
         
-        echo "Message sent successfully!";
+        header("Location: index.html?status=success");
+        exit(); 
     } else {
-        echo "Error: Could not send message.";
+        
+        header("Location: index.html?status=error");
+        exit();
     }
+} else {
+    header("Location: index.html");
+    exit();
 }
 ?>
