@@ -338,6 +338,10 @@ section {
 
 }
 
+.contact-card a:hover {
+    text-decoration: none;
+}
+
 .contact-card-upper,
 .contact-card-lower {
     display: flex;
