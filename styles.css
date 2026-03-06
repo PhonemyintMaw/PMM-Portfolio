@@ -150,6 +150,7 @@ section {
 .btn-group {
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 .btn {
@@ -161,6 +162,7 @@ section {
     font-weight: 500;
     text-wrap: nowrap;
     transition: 0.2s ease-in-out;
+    height: 43px;
 }
 
 .btn:hover {

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Phone Myint Maw</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="email.css">
+</head>
+
+<body>
+
+    <section class="email-page-main">
+        <a href="http://phonemyintmaw.dev">
+            <button class="back-btn">
+                Back
+            </button>
+        </a>
+        <div class="email-section">
+            <h1 class="email-section-head">Email Me</h1>
+            <div class="email-section-body">
+                <div>
+                    <img src="images/paperplane.png" alt="paperplane">
+                </div>
+                <div class="boundary">
+                    |
+                </div>
+                <form class="email-section-body-msg" action="send_email.php" method="POST">
+                    <div class="msg-part">
+                        <label for="email">Your Email:</label><br><br>
+                        <input name="email" id="email" type="email" placeholder="example@email.com">
+                        <br>
+                        <br>
+                        <br>
+                        <label for="content">Message:</label><br><br>
+                        <textarea name="message" id="message" class="message-text" type="text"
+                            placeholder="Write Message"></textarea>
+                    </div>
+                    <div class="btn-part">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
