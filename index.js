@@ -6,6 +6,22 @@ menuIcon.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
+//Color Change
+
+const savedTheme = localStorage.getItem('theme') || 'light';
+document.documentElement.setAttribute('data-theme', savedTheme);
+
+const themeSwitch = document.getElementById('theme-switch');
+
+themeSwitch.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+});
+
+
 //Language Change
 let translation = {};
 

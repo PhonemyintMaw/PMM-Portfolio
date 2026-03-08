@@ -33,6 +33,13 @@
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
+        <div class="theme-btn-section">
+            <button id="theme-switch" class="theme-btn">
+                <img class="to-dark" src="images/icons/dark.svg" alt="dark icon">
+                <img class="to-light" src="images/icons/light.svg" alt="light icon">
+            </button>
+        </div>
+
     </header>
 
     <section id="main" class="about">
@@ -81,7 +88,7 @@
                 <div class="grid-card">
                     <i class="fa-solid fa-language"></i>
                     <span data-lang="experience-title-1">Japanese Language</span><span>JLPT N2</span>
-                    <h3 data-lang="experience-title-1-years">10+ Years</h3><br>
+                    <h4 data-lang="experience-title-1-years">10+ Years</h4><br>
                     <p data-lang="experience-title-1-desc">Went to Japan in 2008 and lived there for 1.5 years. After
                         coming back from Japan, I continued to
                         improve my Japanese skills through self-study and practice. Currently, I have a JLPT N2 level
@@ -90,7 +97,7 @@
                 <div class="grid-card">
                     <i class="fa-solid fa-language"></i>
                     <span data-lang="experience-title-2">English Language</span><span>C1</span>
-                    <h3 data-lang="experience-title-2-years">10+ Years</h3><br>
+                    <h4 data-lang="experience-title-2-years">10+ Years</h4><br>
                     <p data-lang="experience-title-2-desc">Learning English ever since I was in a kindergarden and I
                         have
                         finished my UK top up
@@ -101,7 +108,7 @@
                 <div class="grid-card">
                     <i class="fa-solid fa-code"></i>
                     <span data-lang="experience-title-3">Web / Web App Development</span><br>
-                    <h3 data-lang="experience-title-3-years">3 Years</h3><br>
+                    <h4 data-lang="experience-title-3-years">3 Years</h4><br>
                     <p data-lang="experience-title-3-desc">Developed multiple responsive and interactive websites and
                         web
                         applications as
@@ -112,7 +119,7 @@
                 <div class="grid-card">
                     <i class="fa-solid fa-briefcase"></i>
                     <span data-lang="experience-title-4">Work Experience</span><br>
-                    <h3 data-lang="experience-title-4-years">2+ Years</h3><br>
+                    <h4 data-lang="experience-title-4-years">2+ Years</h4><br>
                     <p data-lang="experience-title-4-desc"> Utilizing my fluency in Japanese Language, I am currently
                         working
                         as Interview
@@ -126,7 +133,10 @@
             </div>
 
             <div class="skill-section">
-                <img src="images/profile 2.JPEG" alt="profile pic">
+                <div class="skill-img">
+                    <img src="images/profile 2.JPEG" alt="profile pic">
+                </div>
+
                 <div class="skill-detail">
                     <h3 class="link-gradient" data-lang="skill-section-name">
                         Name: Phone Myint Maw
@@ -158,71 +168,87 @@
             Projects
         </h2>
 
-        <div class="project-grid">
-            <div class="project-card">
-                <img src="images/websites/L4DCBM.png" alt="L4 DCBM Project">
-                <h3 data-lang="project-title-1">Ecommerce Website</h3>
-                <p data-lang="project-title-1-desc">
-                    A Camping Equipment Ecommerce Website project made with HTML and CSS for the project assignemnt
-                    of Designing and Develeping Websites Module of NCC's Level 4 Diploma in Computing with Business
-                    Management.
-                </p>
-                <div class="btn-group">
-                    <a data-lang="project-btn-live" class="btn" href="/camping" target="_blank">Live Demo</a>
-                    <a data-lang="project-btn-repo" class="btn link-black"
-                        href="https://github.com/PhonemyintMaw/SFU-L4-Camping-Equipment.git" target="_blank">Github
-                        Repo</a>
+        <div class="projects-division">
+            <h3 data-lang="project-uni">University Projects</h3>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="images/websites/L4DCBM.png" alt="L4 DCBM Project">
+                    <h3 data-lang="project-title-1">Ecommerce Website</h3>
+                    <p data-lang="project-title-1-desc">
+                        A Camping Equipment Ecommerce Website project made with HTML and CSS for the project assignemnt
+                        of Designing and Develeping Websites Module of NCC's Level 4 Diploma in Computing with Business
+                        Management.
+                    </p>
+                    <div class="btn-group">
+                        <a data-lang="project-btn-live" class="btn" href="/camping" target="_blank">Live Demo</a>
+                        <a data-lang="project-btn-repo" class="btn link-black"
+                            href="https://github.com/PhonemyintMaw/SFU-L4-Camping-Equipment.git" target="_blank">Github
+                            Repo</a>
+                    </div>
                 </div>
-            </div>
-            <div class="project-card">
-                <img src="images/websites/L5DCBM.png" alt="">
-                <h3 data-lang="project-title-2">SMC Website</h3>
-                <p data-lang="project-title-2-desc">A Social Media Awareness Educational Website project made with PHP,
-                    CSS,
-                    and Bootstrap
-                    for the
-                    project
-                    assignemnt of Dynamic Website Module of NCC's Level 5 Diploma in Computing with
-                    Business
-                    Management</p>
-                <div class="btn-group">
-                    <a data-lang="project-btn-live" class="btn" href="/smc" target="_blank">Live Demo</a>
-                    <a data-lang="project-btn-repo" class="btn link-black"
-                        href="https://github.com/PhonemyintMaw/SFU-L5-SMC.git" target="_blank">Github
-                        Repo</a>
+                <div class="project-card">
+                    <img src="images/websites/L5DCBM.png" alt="">
+                    <h3 data-lang="project-title-2">SMC Website</h3>
+                    <p data-lang="project-title-2-desc">A Social Media Awareness Educational Website project made with
+                        PHP,
+                        CSS,
+                        and Bootstrap
+                        for the
+                        project
+                        assignemnt of Dynamic Website Module of NCC's Level 5 Diploma in Computing with
+                        Business
+                        Management</p>
+                    <div class="btn-group">
+                        <a data-lang="project-btn-live" class="btn" href="/smc" target="_blank">Live Demo</a>
+                        <a data-lang="project-btn-repo" class="btn link-black"
+                            href="https://github.com/PhonemyintMaw/SFU-L5-SMC.git" target="_blank">Github
+                            Repo</a>
+                    </div>
                 </div>
-            </div>
-            <div class="project-card">
-                <img src="images/websites/UCLANL61.png" alt="">
-                <h3 data-lang="project-title-3">Oshigoto Japan</h3>
-                <p data-lang="project-title-3-desc">The Information Systems Project module's project assignment of the
-                    final
-                    year of NCC's
-                    BSc (Hons)
-                    Business Computing
-                    and
-                    Information Systems pathway top up
-                    degree awarded by University of Lancashire, UK.
-                    Oshigoto Japan is a job application platform for connecting Foreign
-                    Japanese-Language-School-Partners and Job
-                    Agencies in Japan.
-                    This project has been made from initial design to
-                    final implementation using HTML, CSS, Tailwind CSS, and Laravel.</p>
-                <div class="btn-group">
-                    <a data-lang="project-btn-live" class="btn" href="/oshigoto/public/" target="_blank">Live Demo</a>
-                    <a data-lang="project-btn-repo" class="btn link-black"
-                        href="https://github.com/PhonemyintMaw/UCLAN-L6-Laravel---Oshigoto.git" target="_blank">Github
-                        Repo</a>
+                <div class="project-card">
+                    <img src="images/websites/UCLANL61.png" alt="">
+                    <h3 data-lang="project-title-3">Oshigoto Japan</h3>
+                    <p data-lang="project-title-3-desc">The Information Systems Project module's project assignment of
+                        the
+                        final
+                        year of NCC's
+                        BSc (Hons)
+                        Business Computing
+                        and
+                        Information Systems pathway top up
+                        degree awarded by University of Lancashire, UK.
+                        Oshigoto Japan is a job application platform for connecting Foreign
+                        Japanese-Language-School-Partners and Job
+                        Agencies in Japan.
+                        This project has been made from initial design to
+                        final implementation using HTML, CSS, Tailwind CSS, and Laravel.</p>
+                    <div class="btn-group">
+                        <a data-lang="project-btn-live" class="btn" href="/oshigoto/public/" target="_blank">Live
+                            Demo</a>
+                        <a data-lang="project-btn-repo" class="btn"
+                            href="https://github.com/PhonemyintMaw/UCLAN-L6-Laravel---Oshigoto.git"
+                            target="_blank">Github
+                            Repo</a>
+                        <a data-lang="project-btn-report" class="btn"
+                            href="/report/200495_Phone Myint Maw_ISP Final Report_Autumn 2025.pdf" target="_blank">View
+                            Project Report</a>
+                    </div>
                 </div>
-            </div>
-
-
-            <!-- Placeholder for future projects -->
-            <div class="project-card">
-                <h3>Coming Soon!</h3>
 
             </div>
         </div>
+
+        <div class="projects-division">
+            <h3 data-lang="project-practice">Practice Projects</h3>
+            <!-- Placeholder for future projects -->
+            <div class="coming-soon">
+                <h3>Coming Soon!</h3>
+            </div>
+
+        </div>
+
+
+
 
     </section>
 
@@ -239,8 +265,8 @@
                     <i class="fa-brands fa-facebook"></i>
                 </div>
 
-                <div class="link-gradient contact-card-lower">
-                    <h3>Phone Myint Maw</h3>
+                <div class="contact-card-lower">
+                    <h3 class="link-gradient">Phone Myint Maw</h3>
                 </div>
             </a>
 
@@ -249,7 +275,7 @@
                     <i class="fa-solid fa-phone "></i>
                 </div>
                 <div class="contact-card-lower">
-                    <h3>+66 626429480</h3>
+                    <h3 class="contact-num">+66 626429480</h3>
                 </div>
             </div>
 
@@ -260,7 +286,7 @@
                     </div>
 
                     <div class="link-gradient contact-card-lower">
-                        <h3 data-lang="contact-email">Email Me</h3>
+                        <h3 class="link-gradient " data-lang="contact-email">Email Me</h3>
                     </div>
                 </div>
             </a>

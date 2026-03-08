@@ -26,6 +26,7 @@
         "skill-db": "Database:",
         "skill-tools": "Tools:",
         "project-title": "Projects",
+        "project-uni": "University Projects",
         "project-title-1": "Ecommerce Website",
         "project-title-1-desc": "A Camping Equipment Ecommerce Website project made with HTML and CSS for the project assignemnt of Designing and Develeping Websites Module of NCC 's Level 4 Diploma in Computing with Business Management.",
         "project-title-2": "SMC Website",
@@ -34,6 +35,8 @@
         "project-title-3-desc": "The Information Systems Project module's project assignment of the final year of NCC 's BSc(Hons) Business Computing and Information Systems pathway top up degree awarded by University of Lancashire, UK.  Oshigoto Japan is a job application platform for connecting Foreign Japanese - Language - School - Partners and Job Agencies in Japan. This project has been made from initial design to final implementation using HTML, CSS, Tailwind CSS, and Laravel. ",
         "project-btn-live": "Live Demo",
         "project-btn-repo": "Github Repo ",
+        "project-btn-report": "View Project Report",
+        "project-practice": "Practice Projects",
         "contact-title": "Contact Me",
         "contact-email": "Email Me",
         "contact-moreinfo-desc": "Feel free to reach out to me through any of the contacts above! I am open to discussing potential job opportunities, collaborations, or any inquiries you may have.I look forward to connecting with you!"
@@ -65,6 +68,7 @@
         "skill-db": "データーベース:",
         "skill-tools": "ツール:",
         "project-title": "プロジェクト",
+        "project-uni": "大学プロジェクト",
         "project-title-1": "ECサイト",
         "project-title-1-desc": "大学1年次「Designing and Developing Websites」モジュールの課題として、HTMLとCSSを用いたシンプルなキャンプ用品ECサイトを制作しました。",
         "project-title-2": "SMC",
@@ -73,6 +77,8 @@
         "project-title-3-desc": "大学3年次「Information Systems Project」モジュールの課題であり、「ビジネスコンピューティング・情報システム学科」最終課題として、Laravel、HTML、CSS、Tailwind、MySQLを用いたプロジェクト。「OSHIGOTO JAPAN」は人材マッチング・登録システムとして日本語学校と日本側支援機関を橋渡しする、WEBアプリです。実務経験や積み重ねてきたITスキルを活かし、要件定義・システム分析・設計を始め、開発やプロジェクトドキュメント作成まで一貫して自ら担当しました。",
         "project-btn-live": "サイトへ",
         "project-btn-repo": "ソースコード",
+        "project-btn-report": "論文を見る",
+        "project-practice": "練習プロジェクト",
         "contact-title": "問い合わせ",
         "contact-email": "メールはこちらから",
         "contact-moreinfo-desc": "問い合わせお待ちしております。お気軽にご連絡ください。"
