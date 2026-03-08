@@ -448,7 +448,17 @@ footer ul li a {
     color: transparent;
 }
 
+/* All translatable elements */
+[data-lang] {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    /* Helps with smooth transform */
+}
 
+/* The state when the text is "hidden" during the switch */
+.lang-changing {
+    opacity: 0;
+    transform: translateY(2px);
+}
 
 /* SCROLLBAR */
 

@@ -14,8 +14,6 @@ async function loadTranslation() {
         const response = await fetch('./lang.json');
         translation = await response.json();
         applyLanguage(localStorage.getItem('preferredLang') || 'en');
-
-
     } catch (error) {
         console.error("Could not load translations:", error);
     }
@@ -24,16 +22,21 @@ async function loadTranslation() {
 function applyLanguage(lang) {
 
     const elements = document.querySelectorAll('[data-lang]');
-    elements.forEach(el => {
-        const key = el.getAttribute('data-lang');
-        if (translation[lang] && translation[lang][key]) {
-            el.textContent = translation[lang][key];
-        }
+    elements.forEach(el => el.classList.add('lang-changing'));
+    setTimeout(() => {
+        elements.forEach(el => {
+            const key = el.getAttribute('data-lang');
+            if (translation[lang] && translation[lang][key]) {
+                el.textContent = translation[lang][key];
+            }
 
-        el.classList.remove('.lang-changing');
-    });
+            el.classList.remove('lang-changing');
+        });
 
-    localStorage.setItem('preferredLang', lang);
+        document.documentElement.lang = lang;
+        localStorage.setItem('preferredLang', lang);
+    }, 200);
+
 }
 
 loadTranslation();
