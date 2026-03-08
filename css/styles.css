@@ -107,7 +107,7 @@ ul li a:hover::before {
     display: none;
 }
 
-/* SECTIONS */
+/* MAIN */
 
 section {
     min-height: 100vh;
@@ -210,6 +210,9 @@ section {
     margin-bottom: 3rem;
 }
 
+
+/* Experience */
+
 .experience-info {
     display: flex;
     align-items: center;
@@ -219,7 +222,8 @@ section {
 
 .experience img {
     width: 25vw;
-    border-radius: 3rem;
+    border-radius: 1rem;
+    margin-bottom: 30px;
 }
 
 .grid {
@@ -257,6 +261,20 @@ section {
     background: linear-gradient(to right, rgb(17, 236, 225), rgb(0, 255, 0));
     background-clip: text;
     color: transparent;
+}
+
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 3rem;
+    padding: 3rem;
+    background-color: black;
+    color: white;
+}
+
+.skill-section h3 {
+    margin-bottom: 10px;
 }
 
 /* Projects */
@@ -430,9 +448,7 @@ footer ul li a {
     color: transparent;
 }
 
-.link-gradient:hover {
-    text-decoration: underline;
-}
+
 
 /* SCROLLBAR */
 
