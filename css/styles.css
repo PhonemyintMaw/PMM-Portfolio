@@ -44,7 +44,8 @@ p {
     text-align: justify;
 }
 
-/* HEAD */
+
+/* MENU BAR */
 
 header {
     position: fixed;
@@ -167,6 +168,7 @@ ul li a:hover::before {
     font-size: 2rem;
     display: none;
 }
+
 
 /* MAIN */
 
