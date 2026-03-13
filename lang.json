@@ -5,7 +5,50 @@
         "main-intro-name": "Phone Myint Maw",
         "main-intro-profession": "Japanese & English Language Professional, Business IT Graduate",
         "main-intro-location": "Bangkok, Thailand",
-        "experience-title": "Skills & Experience",
+        "skill-section-title": "About Me",
+        "skill-section-name": "Name: Phone Myint Maw",
+        "skill-DOB": "DOB: 2002.05.05",
+        "skill-section-nationality": "Nationality: Myanmar",
+        "skill-frontend": "Frontend:",
+        "skill-backend": "Backend:",
+        "skill-db": "Database:",
+        "skill-tools": "Tools:",
+
+        "edu-title": "Education",
+        "edu-subtitle-1": "Education Journey",
+        "edu-subtitle-2": "Achievement",
+
+        "edu-sch1-name": "Nyaung Pin Lay Private High School",
+        "edu-sch1-type": "High School",
+        "edu-sch1-desc": "Attended 2 final years of basic highschool level education, 9th and 10th Grade, in prestegious Nyaung Pin Lay Private High School, well known for its high - level teaching method with well reknowned professors.",
+
+        "edu-sch2-name": "University of Computer Studies, Hinthada",
+        "edu-sch2-type": "University",
+        "edu-sch2-desc": "Finished the first year of the BSc. Computer Science and Technology course. During the second year 's first semester, I parted ways with the University due to COVID-19 and political instabilities.",
+
+        "edu-sch3-name": "Strategy First International College",
+        "edu-sch3-type": "University",
+        "edu-sch3-desc": "Joined Strategy First International College (Formerly Strategy First University) with their Business Computing and Infromation Systems Undergraduate programme in August 2022 and completed the course in December 2025, through the partnered UK university, University of Lancashire.",
+
+        "edu-sch4-name": "University of Lancashire, Preston",
+        "edu-sch4-type": "University",
+        "edu-sch4-desc": "Joined the BSc (Hons) Business Computing and Infromation Systems thourgh Strategy First International College 's UK Degree Pathway programme in February 2025 until December in the same year, successfully completing the course with the First Class Honors.",
+
+        "edu-acv1-name": "Single Subject Diploma in Strategic Management",
+        "edu-acv1-date": "July, 2022",
+        "edu-acv1-desc": "Completed the Institute of Commercial Management's Single Subject Diploma with Grade A (Distinction).",
+
+        "edu-acv2-name": "JLPT N2",
+        "edu-acv2-date": "August, 2022",
+        "edu-acv2-desc": "After receiving JLPT N4 and N3, I continued my learning journey and passed the JLPT N2 exam with the total score of 148 out of 180. Additionally, I received full marks in the Listening Test.",
+
+        "edu-acv3-name": "BSc. (Hons) Business Computing and Information Systems",
+        "edu-acv3-date": "March, 2026",
+        "edu-acv3-desc": "Completed the Business Computing and Information Systems course, awarded with First Class Honors Degree by University of Lancashire.",
+
+        "edu-sch-link": "Visit School",
+
+        "experience-title": "Experience",
         "experience-title-1": "Japanese Language",
         "experience-title-1-years": "10+ Years",
         "experience-title-1-desc": "Went to Japan in 2008 and lived there for 1.5 years. After coming back from Japan, I continued to improve my Japanese skills through self - study and practice.　Currently, I have a JLPT N2 level certificate with native level Japanese Language fluency.",
@@ -14,17 +57,22 @@
         "experience-title-2-desc": "Learning English ever since I was in a kindergarden and I have finished my UK top up university degree in Business Computing using English as the primary language of instruction.",
         "experience-title-3": "Web / Web App Development",
         "experience-title-3-years": "2 Years",
-        "experience-title-3-desc": "Developed multiple responsive and interactive websites and web applications as assignment projects throughout the university years, and improving my skills continuously to land an IT job in Japan.",
+        "experience-title-3-desc": "Throughout my university years and independent studies, I have developed multiple responsive web applications by mastering both the visual and logic layers of software development.",
+
+        "experience-title-3-desc1": "Frontend Development: Focused on creating interactive user interfaces using HTML and CSS (Tailwind / Bootstrap).I am currently expanding my skills into JavaScript and React.js to build modern, component - based UIs.",
+        "experience-title-3-desc2": "Backend Development: Proficient in server-side programming with PHP and the Laravel framework, implementing secure authentication and complex business logic for recruitment platforms like 'OSHIGOTO JAPAN'.",
+        "experience-title-3-desc3": "Database Management: Experienced in designing and managing relational databases using MySQL, ensuring efficient data architecture for high - performance applications.",
+
         "experience-title-4": "Work Experience",
         "experience-title-4-years": "2+ Years",
-        "experience-title-4-desc": "Utilizing my fluency in Japanese Language, I am currently working as Interview Trainer / Interviewer / Interpreter at Japanese Language School and Job Agency, which has sent over 600 students to Japan through Tokutei SSW Visa.",
+        "experience-title-4-desc": "Leveraging native-level fluency in Japanese, I serve as a lead Interview Trainer and Interpreter within a dual-functioning language academy and recruitment firm. My role is pivotal in the end-to-end preparation of candidates for the Japanese labor market, specifically focusing on the Tokutei Ginou (SSW) Visa track.",
+
+        "experience-title-4-desc1": "Strategic Training: I have mentored and coached over 200 students, ensuring their successful placement into Japanese companies by refining their professional communication and interview techniques.",
+        "experience-title-4-desc2": "Linguistic Liaison: I act as a primary bridge between Japanese employers and local candidates, providing high-stakes interpretation during official interviews and technical screenings.",
+        "experience-title-4-desc3": "Operations Management: Beyond language, I contribute to corporate operations by ensuring that all training modules align with the strict requirements of Japanese corporate etiquette and visa regulations.",
+
         "experience-title-4-link": "Company Website Link",
-        "skill-section-name": "Name: Phone Myint Maw",
-        "skill-section-nationality": "Nationality: Myanmar",
-        "skill-frontend": "Frontend:",
-        "skill-backend": "Backend:",
-        "skill-db": "Database:",
-        "skill-tools": "Tools:",
+
         "project-title": "Projects",
         "project-uni": "University Projects",
         "project-title-1": "Ecommerce Website",
@@ -37,6 +85,7 @@
         "project-btn-repo": "Github Repo ",
         "project-btn-report": "View Project Report",
         "project-practice": "Practice Projects",
+
         "contact-title": "Contact Me",
         "contact-email": "Email Me",
         "contact-moreinfo-desc": "Feel free to reach out to me through any of the contacts above! I am open to discussing potential job opportunities, collaborations, or any inquiries you may have.I look forward to connecting with you!"
@@ -47,7 +96,51 @@
         "main-intro-name": "フォンミイモウ です。",
         "main-intro-profession": "日本語・ミャンマー語・英語通訳、ビジネスIT 新卒",
         "main-intro-location": "バンコク、タイ",
-        "experience-title": "スキル・経験",
+
+        "skill-section-title": "自己紹介",
+        "skill-section-name": "氏名: フォンミイモウ",
+        "skill-DOB": "生年月日: 2002年5月5日",
+        "skill-section-nationality": "国籍: ミャンマー",
+        "skill-frontend": "フロントエンド:",
+        "skill-backend": "バックエンド:",
+        "skill-db": "データーベース:",
+        "skill-tools": "ツール:",
+
+        "edu-title": "教育",
+        "edu-subtitle-1": "学歴",
+        "edu-subtitle-2": "公的認定・資格",
+
+        "edu-sch1-name": "NYAUNG PIN LAY 私立高校学校",
+        "edu-sch1-type": "高校",
+        "edu-sch1-desc": "県内でも定評のある私立校にて、2年間にわたる高校基礎教育（高校2年生と3年生）を専攻。",
+
+        "edu-sch2-name": "ヒンタダコンピューター大学",
+        "edu-sch2-type": "大学",
+        "edu-sch2-desc": "「BSc. Computer Science and Technology」コースを専攻し、大学一年目を終え、二年目の一学期にてコロナや政治情勢のため、退学。",
+
+        "edu-sch3-name": "STRATEGY FIRST インターナショナルカレッジ",
+        "edu-sch3-type": "大学",
+        "edu-sch3-desc": "STRATEGY FIRST インターナショナルカレッジ (元 STRATEGY FIRST 私立大学) にて、英国のランカシャー大学をパートナーとした「ビジネスコンピューティング、情報システム学科」コースを2022年8月から入学。",
+
+        "edu-sch4-name": "ランカシャー大学、プレストン",
+        "edu-sch4-type": "大学",
+        "edu-sch4-desc": "STRATEGY FIRSTで2年を終え、「ビジネスコンピューティング、情報システム学科」の最終学年を2025年2月から12月まで進行。現在最優秀成績で卒業。",
+
+        "edu-acv1-name": "戦略的マネジメント・シングルサブジェクト・ディプロマ 取得",
+        "edu-acv1-date": "2022年7月",
+        "edu-acv1-desc": "英国の教育機関ICM（Institute of Commercial Management）より、ビジネス戦略における高度な知見を認められ、最高評価の「Grade A (Distinction)」で修了。",
+
+        "edu-acv2-name": "JLPT N2",
+        "edu-acv2-date": "2022年8月",
+        "edu-acv2-desc": "日本語能力試験N2を180点中148点取得し、聴解を満点で合格。",
+
+        "edu-acv3-name": "ビジネスコンピューティング、情報システム学科（BSc. (Hons) Business Computing and Information Systems）",
+        "edu-acv3-date": "2026年3月",
+        "edu-acv3-desc": "ランカシャー大学の「ビジネスコンピューティング、情報システム学科」を終え、最優秀成績で卒業。",
+
+        "edu-sch-link": "サイトへ",
+
+        "experience-title": "経験",
         "experience-title-1": "日本語能力",
         "experience-title-1-years": "学習歴10+年",
         "experience-title-1-desc": "2008年から1年半間日本で小学校を通い、帰国後も日本語能力を独学で育みました。現在日本語能力試験のN2を取得し、日本語会話もネイティブレベルに達しています。",
@@ -56,17 +149,24 @@
         "experience-title-2-desc": "ミャンマーでは幼稚園から高校まで英語教育が行われているため、英語の学習歴は日本語よりも長いです。また、英国のセントラルランカシャー大学を卒業しており、英語での業務遂行のは全く問題ございません。",
         "experience-title-3": "WEB / WEBアプリ 開発",
         "experience-title-3-years": "学歴3年",
-        "experience-title-3-desc": "大学3年間のプロジェクトを通じ、サイトやWEBアプリの開発に携わっており。現在も日本での就職にむけてIT系のスキルを磨いております。",
+
+        "experience-title-3-desc": "大学でのプロジェクトや自習を通じ、フロントエンドからバックエンド、データベース設計まで一貫したWebアプリケーション開発スキルを習得しました。",
+
+        "experience-title-3-desc1": "フロントエンド開発: HTML, CSS (Tailwind/Bootstrap)を用いたレスポンシブなUI設計を得意としています。現在は JavaScript、React.jsを自習しており、モダンなフロントエンド技術の習得に励んでいます。",
+        "experience-title-3-desc2": "バックエンド開発: PHPおよびLaravelフレームワークを用いたサーバーサイド実装が可能です。求人マッチングプラットフォーム「OSHIGOTO JAPAN」の開発では、セキュアな認証機能や複雑なビジネスロジックの実装を担当しました。",
+        "experience-title-3-desc3": "データベース管理: MySQLを用いたリレーショナルデータベースの設計・運用経験があります。効率的なデータ構造の構築や、クエリの最適化に関する基礎知識を備えています。",
+
         "experience-title-4": "職歴",
         "experience-title-4-years": "2年以上",
-        "experience-title-4-desc": "ネイティブレベルの日本語能力を生かし、600人以上の特定技能人材を送り出した実績のある JMTS ミャンマー人材送り出し機関・Toshin 日本語教育センターで面接指導、面接サポート、通訳、顧客対応など様々な業務を行っております。",
+        "experience-title-4-desc": "ネイティブレベルの日本語能力を活かし、日本語学校と人材紹介の双方を運営する組織にて、面接トレーナー、面接官、および通訳業務に従事しております。主に特定技能（SSW）ビザでの日本就労を目指す学生の指導と、日本企業との橋渡しを担っています。",
+
+        "experience-title-4-desc1": "確かな実績: これまで600名以上の学生を指導し、日本企業への就職内定へと導きました。学生一人ひとりの強みを引き出し、日本のビジネスマナーに即した面接指導を行っています。",
+        "experience-title-4-desc2": "高度なコミュニケーション: 日本の採用担当者と候補者の間に立ち、技術選考や最終面接における通訳・翻訳業務を担当。文化的な背景を踏まえた円滑な意思疎通を支援しています。",
+        "experience-title-4-desc3": "運営管理・コンプライアンス支援: 語学支援のみならず、全てのトレーニングカリキュラムが日本のビジネスマナーや特定技能（SSW）ビザの厳格な要件に準拠するよう、運営面から品質管理を徹底しています。単なる教育に留まらず、法規制や日本独自の企業文化に基づいた適切な指導・運営を行うことで、候補者の高い内定率の維持と、提携先企業との信頼関係の構築に寄与しています。",
+
+
         "experience-title-4-link": "会社のホームページへ",
-        "skill-section-name": "氏名: フォンミイモウ",
-        "skill-section-nationality": "国籍: ミャンマー",
-        "skill-frontend": "フロントエンド:",
-        "skill-backend": "バックエンド:",
-        "skill-db": "データーベース:",
-        "skill-tools": "ツール:",
+
         "project-title": "プロジェクト",
         "project-uni": "大学プロジェクト",
         "project-title-1": "ECサイト",
@@ -79,6 +179,7 @@
         "project-btn-repo": "ソースコード",
         "project-btn-report": "論文を見る",
         "project-practice": "練習プロジェクト",
+
         "contact-title": "問い合わせ",
         "contact-email": "メールはこちらから",
         "contact-moreinfo-desc": "問い合わせお待ちしております。お気軽にご連絡ください。"
